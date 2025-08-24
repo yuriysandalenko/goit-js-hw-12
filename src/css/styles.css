@@ -45,10 +45,10 @@ body {
 main {
   width: 100%;
   max-width: 1800px;
-  /* можно подстроить под твой макет */
+ 
 }
 
-/* ===== Search Form ===== */
+
 .form {
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@ main {
   background: #355dff;
 }
 
-/* ===== Gallery (flex, 5 в ряд) ===== */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +99,7 @@ main {
   width: 100%;
 }
 
-/* карточка */
+
 .gallery-item {
   background: #fff;
   border-radius: 12px;
@@ -109,7 +109,7 @@ main {
   flex-direction: column;
   transition: transform 0.2s;
   flex: 1 1 calc(20% - 16px);
-  /* 5 в ряд */
+  
   max-width: calc(20% - 16px);
 }
 
@@ -136,11 +136,11 @@ main {
   margin: 0;
 }
 
-/* адаптив */
+
 @media (max-width: 1200px) {
   .gallery-item {
     flex: 1 1 calc(25% - 16px);
-    /* 4 в ряд */
+    
     max-width: calc(25% - 16px);
   }
 }
@@ -148,7 +148,7 @@ main {
 @media (max-width: 992px) {
   .gallery-item {
     flex: 1 1 calc(33.333% - 16px);
-    /* 3 в ряд */
+   
     max-width: calc(33.333% - 16px);
   }
 }
@@ -156,7 +156,7 @@ main {
 @media (max-width: 768px) {
   .gallery-item {
     flex: 1 1 calc(50% - 16px);
-    /* 2 в ряд */
+   
     max-width: calc(50% - 16px);
   }
 }
@@ -164,12 +164,12 @@ main {
 @media (max-width: 480px) {
   .gallery-item {
     flex: 1 1 100%;
-    /* 1 в ряд */
+   
     max-width: 100%;
   }
 }
 
-/* ===== Load More Button ===== */
+
 .load-more {
   display: block;
   margin: 0 auto 30px;
@@ -192,7 +192,7 @@ main {
   display: none;
 }
 
-/* ===== Loader ===== */
+
 .loader {
   display: block;
   margin: 0 auto;
@@ -214,7 +214,7 @@ main {
   }
 }
 
-/* ===== iziToast поверх всего ===== */
+
 .iziToast {
   z-index: 9999 !important;
 }
